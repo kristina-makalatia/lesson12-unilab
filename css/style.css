@@ -1,0 +1,113 @@
+.form-wraper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.input-wraper {
+    max-width: 700px;
+    width: 100%;
+    height: 45px;
+    color: red;
+    font-size: 16px;
+    /* border-radius: 25px; */
+    border: none;
+    border-bottom: 2px solid green;
+    padding-left: 30px;
+}
+
+/* input[type=text] {
+    background-color: blue;
+} */
+.textarea-wraper {
+    max-width: 700px;
+    width: 100%;
+    height: 200px;
+    resize: none;
+    color: red;
+    font-size: 16px;
+}
+.input-wraper::-webkit-input-placeholder, .textarea-wraper::-webkit-input-placeholder {
+    color: blue;
+    font-size: 14px;
+}
+.input-wraper::-moz-placeholder, .textarea-wraper::-moz-placeholder {
+    color: blue;
+    font-size: 14px;
+}
+.input-wraper:-ms-input-placeholder, .textarea-wraper:-ms-input-placeholder {
+    color: blue;
+    font-size: 14px;
+}
+.input-wraper::-ms-input-placeholder, .textarea-wraper::-ms-input-placeholder {
+    color: blue;
+    font-size: 14px;
+}
+.input-wraper::placeholder,
+.textarea-wraper::placeholder {
+    color: blue;
+    font-size: 14px;
+}
+
+.input-wraper:focus,
+.textarea-wraper:focus {
+    outline: none;
+}
+.btn-send {
+    width: 250px;
+    height: 45px;
+    background-color: coral;
+    border: none;
+    border-radius: 25px;
+}
+
+
+/* pseudo classe */
+.block {
+    width: 300px;
+    height: 300px;
+}
+.block:nth-child(1){
+    background-color: yellow;
+} 
+.block:nth-child(2){
+    background-color: pink;
+}   
+.block:nth-child(3){
+    background-color: green;
+}   
+.block:nth-child(4){
+    background-color: red;
+}     
+.block:nth-child(2) p {
+    color: #fff;
+}
+.wraper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-image {
+    background-image: url('https://giorgi-letodiani.github.io/middle-exam/images/bg-1.png');
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    max-width: 1085px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    margin-top: 100px;
+}
